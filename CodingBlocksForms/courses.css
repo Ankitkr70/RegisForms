@@ -1,0 +1,112 @@
+body {
+    background-image: url("coding.jpg");
+}
+
+img {
+    position: relative;
+
+    left: 50px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+@keyframes move {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+
+}
+
+.button:hover {
+    background-color: darkgreen;
+    color: white;
+    animation-duration: 1.5s;
+    animation-name: move;
+}
+
+#title {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+#amount {
+    margin-bottom: 5px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 25px;
+
+}
+
+#lecture {
+    font-weight: bold;
+    text-align: center;
+    font-size: 15px;
+}
+
+#discrp {
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+
+}
+
+.button {
+
+    border: 0px solid white;
+    background-color: forestgreen;
+    margin-left: 60px;
+    text-align: center;
+
+    padding: 8px;
+    width: 170px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.title {
+
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+    text-align: center;
+    padding: 30px;
+}
+
+.course1, .course3, .course5 {
+
+    background-color: lightgray;
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+    height: 500px;
+    border: 3px solid white;
+
+}
+
+.course2, .course4, .course6 {
+    vertical-align: top;
+    display: inline-block;
+    margin-left: 100px;
+    width: 300px;
+    height: 500px;
+    border: 3px solid white;
+    background-color: white;
+
+}
+
+.course4, .course5, .course6 {
+    margin-top: 30px;
+}

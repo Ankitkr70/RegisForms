@@ -1,0 +1,126 @@
+.head {
+    vertical-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-bottom: 30px;
+
+}
+
+.holder {
+    padding: 10px;
+    margin-left: 400px;
+    width: 40%;
+    background-color: lightgray;
+    color: black;
+}
+
+label {
+
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#name, #age, #DOB, #college, #branch {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: 0px;
+    outline-color: white;
+    padding: 10px;
+    border-radius: 5px;
+
+}
+
+#age {
+    width: 80%;
+}
+
+input:focus {
+
+    border: 2px solid darkgreen;
+}
+
+#sex {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+.sex, .center {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#email {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+
+    margin-right: 10px;
+    outline: 0px;
+    outline-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 50%;
+}
+
+.select {
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    margin-left: 10px;
+    border: 0px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    width: 30%;
+}
+
+.select:focus {
+    border-right: 2px solid deepskyblue;
+}
+
+@keyframes move {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+
+}
+
+.next:hover {
+
+    animation-duration: 1.5s;
+    animation-name: move;
+}
+
+.next {
+    margin-top: 30px;
+
+    border: 0px solid white;
+    background-color: darkgreen;
+    margin-left: 45%;
+    text-align: center;
+
+    padding: 8px;
+    width: 170px;
+    height: 40px;
+}
+
+a {
+    text-decoration: none;
+    display: block;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+

@@ -1,0 +1,122 @@
+body {
+    background-image: url("coding.jpg");
+}
+
+.head {
+    vertical-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    margin-bottom: 30px;
+
+}
+
+div {
+
+    color: black;
+}
+
+.container {
+    margin-left: 350px;
+    padding: 10px;
+    width: 50%;
+    background-color: lightgray;
+}
+
+.paymentgate {
+
+    text-decoration: underline;
+
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+img {
+    height: 60px;
+    width: 80px;
+}
+
+input[type=radio] {
+
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.cardtype {
+
+    display: block;
+}
+
+input:not(#cardtype) {
+    display: block;
+}
+
+label {
+    margin-bottom: 10px;
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+input:not(#cardtype) {
+
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    outline: 0px;
+    outline-color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+input:focus {
+
+    border: 2px solid darkgreen;
+}
+
+@keyframes move {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+
+}
+
+.pay:hover {
+
+    animation-duration: 1.5s;
+    animation-name: move;
+}
+
+.pay {
+    margin-top: 30px;
+
+    border: 0px solid white;
+    background-color: darkgreen;
+    margin-left: 45%;
+    text-align: center;
+
+    padding: 8px;
+    width: 170px;
+    height: 40px;
+}
+
+a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
